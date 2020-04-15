@@ -36,8 +36,10 @@ header{
 	text-decoration: none;
 	color: #ffffff;
 	cursor: pointer;
-	font-family: "Malgun Gothic Regular";
+	font-family: 'Malgun Gothic Regular';
+	src: '/fonts/Malgun-Gothic_Regular_29381.ttf' 
+	/*, 'sans-serif';*/
 	font-size: 18px;
 	text-align: center;
-	/*font-weight: bold;
+	/*font-weight: bold;*/
 }

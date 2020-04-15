@@ -19,14 +19,25 @@ header{
 	background-color: #25252d;
 }
 .header-logo  {
-	/*width: 221px;
-    height: 51px;
-    background-color: #25252d;
-    */
+	margin: 39px;
 }
 
-.header-cmd_menu {
+.header-cmd_menu ul{
+	list-style: none;
+}
 
+.header-cmd_menu ul li{
+		display: inline-block;
+		margin: 0 56px 0 0;*/
 
+	}
 
-}    
+.header-cmd_menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: "Malgun Gothic Regular";
+	font-size: 18px;
+	text-align: center;
+	/*font-weight: bold;
+}

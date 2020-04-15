@@ -6,20 +6,18 @@
 	padding: 0;
 	outline: none;
 }
+
 header{
-	/* Задействосать режим flex */
-	display: flex; 
+	display: flex; /* Задействосать режим flex */
 	/* Флексы равномерно распределяются по всей строке. Первый и последний элемент прижимаются к соответствующим краям контейнера */
 	justify-content: space-between;
-	/* выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении */
-	align-items: center;
-
+	align-items: center;/* выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении */
 	padding: 2px 140px; /*значение полей вокруг содержимого элемента*/
 	color: #fff;
 	background-color: #25252d;
 }
 .header-logo  {
-	margin: 39px;
+	margin: 39px;/*значение отступа от каждого края элемента*/
 }
 
 .header-cmd_menu ul{
@@ -27,8 +25,8 @@ header{
 }
 
 .header-cmd_menu ul li{
-		display: inline-block;
-		margin: 0 56px 0 0;*/
+		display: inline-block;/*обтекается другими элементами*/
+		margin: 0 56px 0 0;
 
 	}
 

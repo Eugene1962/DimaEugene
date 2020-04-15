@@ -6,7 +6,18 @@
 	padding: 0;
 	outline: none;
 }
+header{
+	/* Задействосать режим flex */
+	display: flex; 
+	/* Флексы равномерно распределяются по всей строке. Первый и последний элемент прижимаются к соответствующим краям контейнера */
+	justify-content: space-between;
+	/* выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении */
+	align-items: center;
 
+	padding: 40px 100px; /*значение полей вокруг содержимого элемента*/
+	color: #fff;
+	background-color: #488EAD;
+}
 .header-logo  {
 	/*width: 221px;
     height: 51px;

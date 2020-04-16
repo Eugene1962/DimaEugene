@@ -8,16 +8,22 @@
 }
 
 header{
-	display: flex; /* Задействосать режим flex */
-	/* Флексы равномерно распределяются по всей строке. Первый и последний элемент прижимаются к соответствующим краям контейнера */
-	justify-content: space-between;
-	align-items: center;/* выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении */
-	padding: 2px 140px; /*значение полей вокруг содержимого элемента*/
 	color: #fff;
 	background-color: #25252d;
 }
+
+header.container{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1000px;
+	margin: auto;
+	color: #fff;
+	background-color: #25252d;
+}
+
 .header-logo  {
-	margin: 39px;/*значение отступа от каждого края элемента*/
+	margin: 39px;
 }
 
 .header-cmd_menu ul{
@@ -25,19 +31,26 @@ header{
 }
 
 .header-cmd_menu ul li{
-		display: inline-block;/*обтекается другими элементами*/
+		display: inline-block;
 		margin: 0 56px 0 0;
-
-	}
+}
 
 .header-cmd_menu ul li a{
+	text-transform: uppercase;
 	text-decoration: none;
 	color: #ffffff;
 	cursor: pointer;
 	font-family: 'Malgun Gothic Regular';
-	src: '/fonts/Malgun-Gothic_Regular_29381.ttf' 
+	src: '../fonts/Malgun-Gothic_Regular_29381.ttf' 
 	/*, 'sans-serif';*/
 	font-size: 18px;
 	text-align: center;
 	/*font-weight: bold;*/
+}
+.email {
+
+}
+
+.phone {
+
 }

@@ -5,29 +5,67 @@
 	margin: 0;
 	padding: 0;
 	outline: none;
+	font-family: Malgun Gothic Regular, sans-serif;
+	src: '../fonts/Malgun-Gothic_Regular_29381.ttf' 
 }
 
-.container {
+/**.container {
 	max-width: 1000px;
 	margin: auto;
-}
+}*/
 
 header {
 	/*color: #fff;
 	background-color: #25252d;*/
 	align-items: right;
 	/*justify-content: space-between;*/
+	/*font-family: 'Malgun Gothic Regular', sans-serif;
+	src: '../fonts/Malgun-Gothic_Regular_29381.ttf'*/ 
 }
 
-.with-flex {
+.contain-head {
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
-	margin: auto;
+	/**margin: auto;*/
 	color: #fff;
 	background-color: #25252d;
 }
 
+.logo  {
+	margin: 39px;
+}
+
+.main-menu ul{
+	list-style: none;
+}
+
+.main-menu ul li{
+		display: inline-block;
+		margin: 0 56px 0 0;
+}
+
+.main-menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+	/*font-weight: bold;*/
+}
+
+.contact {
+
+}
+
+.it-email {
+
+}
+
+.it-phone {
+
+}
 .with-grid {
 	display: grid;
 	margin: 10px 0px 0px 0;
@@ -45,39 +83,4 @@ header {
 	margin: 30px 0px 0px 0;
 	padding: 40px;
 	background: yellow;
-}
-
-
-
-.header-logo  {
-	margin: 39px;
-}
-
-.header-cmd_menu ul{
-	list-style: none;
-}
-
-.header-cmd_menu ul li{
-		display: inline-block;
-		margin: 0 56px 0 0;
-}
-
-.header-cmd_menu ul li a{
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #ffffff;
-	cursor: pointer;
-	font-family: 'Malgun Gothic Regular';
-	src: '../fonts/Malgun-Gothic_Regular_29381.ttf' 
-	/*, 'sans-serif';*/
-	font-size: 18px;
-	text-align: center;
-	/*font-weight: bold;*/
-}
-.email {
-
-}
-
-.phone {
-
 }

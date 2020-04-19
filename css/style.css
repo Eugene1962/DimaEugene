@@ -37,7 +37,7 @@ a {
 
 .logo  {
 	margin: 39px;
-	margin-left: 1%;
+	margin-left: 5%;
 }
 
 .main-menu {
@@ -45,6 +45,7 @@ a {
 	/*margin-left: 3%;*/
 	/*margin-right: 3%;*/
 	/*width: 30%;*/
+	width: 730px;
 }
 
 .main-menu ul{
@@ -65,9 +66,15 @@ a {
 	/*font-weight: bold;*/
 }
 
+/*.parent > li {
+    float: left;
+    width: 11.5%;
+    margin-right: 2%;
+}*/
+
 .contact {
 color: #ffffff;
-margin-right: 2px; 
+margin-right: 20px; 
 }
 
 .it-email {

@@ -5,8 +5,8 @@
 	margin: 0;
 	padding: 0;
 	outline: none;
-	font-family: Malgun Gothic Regular, sans-serif;
-	src: '../fonts/Malgun-Gothic_Regular_29381.ttf' 
+	font-family: 'Malgun Gothic Regular', sans-serif;
+	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf'); 
 }
 
 /**.container {
@@ -60,27 +60,28 @@ header {
 }
 
 .it-email {
-
+color: #ffffff;
 }
 
 .it-phone {
 
 }
+
+.with-float {
+	margin: 10px 0px 0px 0;
+	padding: 10px;
+	background: yellow;
+}
 .with-grid {
 	display: grid;
-	margin: 10px 0px 0px 0;
-	padding: 20px;
+	margin: 20px 0px 0px 0;
+	padding: 30px;
 	background: red;
 }
 
-.wihtout-proper {
-	margin: 20px 0px 0px 0;
-	padding: 30px;
-	background: green;	
-}
-
-.with-float {
+.it-inline_block {
+	display: inline-block;
 	margin: 30px 0px 0px 0;
-	padding: 40px;
-	background: yellow;
+	padding: 50px;
+	background: green;	
 }

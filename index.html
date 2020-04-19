@@ -8,30 +8,44 @@
 	<title>Main Version2</title><!--тег названия страницы (закладки)для браузера -->
 	<link rel="stylesheet" href="css/style.css"><!--тег указание-ссылка на файл стилей -->
 </head><!--конец тега для хранения указаний браузеру -->
-<header
-	<div class="contain-head">
-		<div class="logo">
-			<a href=""><img class="logo" src="images/logo.png" alt="логотип"></a>
+<body><!--тег основного (тела)содержания страницы -->
+	<header>
+		<div class="contain-head">
+			<div class="logo">
+				<a href=""><img class="logo" src="images/logo.png" alt="логотип"></a>
+			</div>
+			<div class="main-menu">
+				<ul>
+					<li><a href="#">о компании</a></li>
+					<li><a href="#">решения и услуги</a></li>
+					<li><a href="#">клиенты</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>
+			</div>
+			<div class="contact">
+				contact
+				<div class="it-email">
+					<!--<a href=""><img class="it-email" src="images/sprite.png" alt="почта"></a>-->
+					<a href=""><img class="it-email" src="images/envelope.png" alt="почта"></a><!--временно! потом будет спрайт-->
+				</div>	
+				<div class="it-phone">
+				</div>	
+			</div>
 		</div>
-		<div class="main-menu">
-			<ul>
-				<li><a href="#">о компании</a></li>
-				<li><a href="#">решения и услуги</a></li>
-				<li><a href="#">клиенты</a></li>
-				<li><a href="#">контакты</a></li>
-			</ul>
-		</div>
-		<div class="contact">contact</div>
-	</div>
-</header>
+	</header>
 	<!-- next -->
-<div class="with-grid">
-	 with-grid 1
-</div>
-<div class="wihtout-prope">
-	wihtout-prop 2
-</div>
-<div class="with-float">
-	 with-float 3
-</div>
-	
+	<div class="with-float">
+	 float
+	</div>
+	<div class="with-grid">
+	 grid
+	</div>
+	<div class="it-inline_block">
+	inline_block
+	</div>
+	<!-- begin scripts -->
+	<script src="js/jquery-1.12.0.min.js"></script><!--тег выполнение джава-скрипта с указанием на его файл -->
+	<script src="js/script.js"></script><!--тег выполнение джава-скрипта с указанием на его файл -->
+	<!-- end scripts -->
+</body>
+</html>

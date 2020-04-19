@@ -9,10 +9,10 @@
 	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf'); 
 }
 
-/**.container {
+.container {
 	max-width: 1000px;
 	margin: auto;
-}*/
+}
 
 header {
 	/*color: #fff;

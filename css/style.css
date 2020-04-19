@@ -8,14 +8,13 @@
 	font-family: 'Malgun Gothic Regular', sans-serif;
 	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf'); 
 }
-
-.container {
+.container{
 	max-width: 1000px;
 	margin: auto;
 }
 
 header {
-	/*color: #fff;
+	color: #ffffff;
 	background-color: #25252d;*/
 	align-items: right;
 	/*justify-content: space-between;*/
@@ -23,17 +22,29 @@ header {
 	src: '../fonts/Malgun-Gothic_Regular_29381.ttf'*/ 
 }
 
+a {
+  text-decoration: none;
+}
+
 .contain-head {
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
 	/**margin: auto;*/
-	color: #fff;
+	color: #ffffff;/*#fff;*/
 	background-color: #25252d;
 }
 
 .logo  {
 	margin: 39px;
+	margin-left: 1%;
+}
+
+.main-menu {
+	/*margin: auto;*/
+	/*margin-left: 3%;*/
+	/*margin-right: 3%;*/
+	/*width: 30%;*/
 }
 
 .main-menu ul{
@@ -47,7 +58,6 @@ header {
 
 .main-menu ul li a{
 	text-transform: uppercase;
-	text-decoration: none;
 	color: #ffffff;
 	cursor: pointer;
 	font-size: 18px;
@@ -56,11 +66,12 @@ header {
 }
 
 .contact {
-
+color: #ffffff;
+margin-right: 2px; 
 }
 
 .it-email {
-color: #ffffff;
+
 }
 
 .it-phone {

@@ -35,6 +35,15 @@ a {
 	background-color: #25252d;
 }
 
+.with-float {
+	float: resize: horizontal;
+	justify-content: space-between;
+	align-items: center;
+	/**margin: auto;*/
+	color: #ffffff;/*#fff;*/
+	background-color: #25252d;
+}
+
 .logo  {
 	margin: 39px;
 	margin-left: 5%;
@@ -85,11 +94,6 @@ margin-right: 20px;
 
 }
 
-.with-float {
-	margin: 10px 0px 0px 0;
-	padding: 10px;
-	background: yellow;
-}
 .with-grid {
 	display: grid;
 	margin: 20px 0px 0px 0;

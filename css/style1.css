@@ -15,7 +15,8 @@
 }
 
 .quadrate {
-	width: 120px;
-    height: 120px;
+	width: 100px;
+    height: 100%;
+    margin: 100px;
 	background: #f447ff
 }

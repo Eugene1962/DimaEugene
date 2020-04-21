@@ -1,0 +1,15 @@
+@font-face {
+ 	font-family: 'Malgun Gothic Regular', sans-serif;
+	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf');
+	font-weight: normal;
+}	
+
+
+
+/* general */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}

@@ -36,13 +36,22 @@ a {
 }
 
 .with-float {
-	float: resize: horizontal;
+	/*float: resize: horizontal;*/
 	justify-content: space-between;
 	align-items: center;
 	/**margin: auto;*/
 	color: #ffffff;/*#fff;*/
 	background-color: red;
 }
+
+with-float.logo {
+	margin-left: 0;
+	width: 221px;
+}
+
+
+
+
 
 .logo  {
 	margin: 39px;

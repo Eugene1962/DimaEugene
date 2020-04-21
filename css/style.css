@@ -17,9 +17,7 @@ header {
 	color: #ffffff;
 	background-color: #25252d;*/
 	align-items: right;
-	/*justify-content: space-between;*/
-	/*font-family: 'Malgun Gothic Regular', sans-serif;
-	src: '../fonts/Malgun-Gothic_Regular_29381.ttf'*/ 
+	/*width: 1922px;*/
 }
 
 a {
@@ -35,23 +33,6 @@ a {
 	background-color: #25252d;
 }
 
-.with-float {
-	/*float: resize: horizontal;*/
-	justify-content: space-between;
-	align-items: center;
-	/**margin: auto;*/
-	color: #ffffff;/*#fff;*/
-	background-color: red;
-}
-
-with-float.logo {
-	margin-left: 0;
-	width: 221px;
-}
-
-
-
-
 
 .logo  {
 	margin: 39px;
@@ -59,7 +40,7 @@ with-float.logo {
 }
 
 .main-menu {
-	/*margin: auto;*/
+	margin: auto;
 	/*margin-left: 3%;*/
 	/*margin-right: 3%;*/
 	/*width: 30%;*/
@@ -81,38 +62,31 @@ with-float.logo {
 	cursor: pointer;
 	font-size: 18px;
 	text-align: center;
-	/*font-weight: bold;*/
 }
-
-/*.parent > li {
-    float: left;
-    width: 11.5%;
-    margin-right: 2%;
-}*/
 
 .contact {
-color: #ffffff;
-margin-right: 20px; 
+	margin: auto;	
+	margin-right: 20px; 
+	color: #ffffff;
 }
 
-.it-email {
-
+.with-float {
+	color: #ffffff;
+	background-color: red;
 }
 
-.it-phone {
-
+div.with-float li {
+	float: left;
 }
 
 .with-grid {
-	display: grid;
-	margin: 20px 0px 0px 0;
-	padding: 30px;
-	background: red;
+	display: grid;    
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 1px;
+	/*background: blue;*/
 }
 
-.it-inline_block {
+.with-inline_block {
 	display: inline-block;
-	margin: 30px 0px 0px 0;
-	padding: 50px;
-	background: green;	
+	background: green;
 }

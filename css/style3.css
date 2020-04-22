@@ -20,15 +20,25 @@
 .quadrate1 {
 	display: table-cell;
 	width: 50px;
-    height: 30px;
+    height: 10px;
     background: white;
+    color: green;
     border: 1px solid black;
+    padding: 3px;
 }
+
+.quadrate2 {
+	display: table-cell;
+	width: 50px;
+    height: 10px;
+    background: white;
+    color: blue;
+    border: 1px solid black;
+    padding: 3px;
 
 .contain {
 	display: table;
-
-	width: 400px;
+	width: 100%;
     min-height: 80px;
     background: white;
     margin: auto;

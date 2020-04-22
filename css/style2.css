@@ -36,20 +36,7 @@
     background: blue;
 }
 
-.contain-flex {
-	display: flex;
-	width: 1000px;
-    min-height: 80px;
-    background: white;
-    margin: auto;
-    margin-left: auto; 
-    margin left: 0;
-}
-
-.contain-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 2fr);
-    grid-gap: 1px;
+.contain {
 	width: 1000px;
     min-height: 80px;
     background: white;

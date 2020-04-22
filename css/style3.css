@@ -15,7 +15,6 @@
 .quadrate {
 	width: 100%;
     min-height: 100px;
-    /*background: green;*/
 }
 
 .quadrate1 {
@@ -23,10 +22,12 @@
 	width: 50px;
     height: 30px;
     background: white;
+    border: 1px solid black;
 }
 
 .contain {
 	display: table;
+
 	width: 400px;
     min-height: 80px;
     background: white;

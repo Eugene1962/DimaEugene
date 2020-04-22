@@ -47,9 +47,47 @@
     margin left: 0;
 }
 
+.container-table2 {
+	display: table;
+	width: 100%;
+    min-height: 2px;
+    background: white;
+    margin: auto;
+    /*margin-left: auto; 
+    margin left: 0;*/
+}
+
 .new-table {
 	display: table-row;
 	margin: auto;
     margin-left: auto; 
     margin left: 0;
+}
+
+.new-table2 {
+	display: table-row;
+	/*margin: auto;*/
+	border: 1px solid black;
+    /*margin-left: auto; 
+    margin left: 0;*/
+}
+
+.col-red {
+	display: table-cell;
+	width: 2px;
+    height: 2px;
+    /*background: red;*/
+    color: red;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.col-purple {
+	display: table-cell;
+	width: 2px;
+    height: 2px;
+    /*background: purple;*/
+    color: purple;
+    border: 1px solid black;
+    padding: 3px;
 }

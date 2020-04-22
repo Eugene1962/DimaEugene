@@ -51,10 +51,25 @@
 
 .new-table {
 	display: table-row;
-	width: 1000px;
-    min-height: 80px;
-    background: white;
-    margin: auto;
+	margin: auto;
     margin-left: auto; 
     margin left: 0;
+}
+
+.quadrate4 {
+	display: table-cell;
+	height: 50px;
+    background: blue;
+}
+
+.quadrate5 {
+	display: table-cell;
+	height: 50px;
+    background: red;
+}
+
+.quadrate6 {
+	display: table-cell;
+	height: 50px;
+    background: yellow;
 }

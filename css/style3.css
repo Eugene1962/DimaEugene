@@ -1,0 +1,43 @@
+@font-face {
+ 	font-family: 'Malgun Gothic Regular', sans-serif;
+	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf');
+	font-weight: normal;
+}	
+
+/* general */
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+.quadrate {
+	width: 100%;
+    min-height: 100px;
+    /*background: green;*/
+}
+
+.quadrate1 {
+	display: table-cell;
+	width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.contain {
+	display: table;
+	width: 400px;
+    min-height: 80px;
+    background: white;
+    margin: auto;
+    margin-left: auto; 
+    margin left: 0;
+}
+
+.new-table {
+	display: table-row;
+	margin: auto;
+    margin-left: auto; 
+    margin left: 0;
+}

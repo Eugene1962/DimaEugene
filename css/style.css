@@ -4,45 +4,79 @@
 	font-weight: normal;
 }	
 
-
-
 /* general */
 
 * {
-	margin: 0;
 	padding: 0;
 	outline: none;
 }
 
-.container{
-	max-width: 1000px;
-	margin: auto;
-}
-
 header {
-	color: #ffffff;
 	background-color: #25252d;
+	width: 1922px;
+	height: 142px;
 }
 
 a {
   text-decoration: none;
 }
 
-.contain-head {
-	display: flex; 
-	justify-content: space-between;
-	align-items: center;
-	background-color: #25252d;
+.with-float {
+	height: 142px;
 }
 
+.logo-float  {
+	float: left;
+	margin: 39px;
+	margin-left: 322px;
+}
+
+.main-menu-float {
+	float: left;
+	padding-top:42px;
+	margin-left: 55px;
+	width: 730px;
+}
+
+.main-menu-float ul {
+	list-style: none;
+}
+
+.main-menu-float ul li {
+		float: left;
+		margin: 0 56px 0 0;
+}
+
+.main-menu-float ul li a {
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact-float {
+	float: left;
+	padding-top: 40px;
+	margin-right: 322px; 
+}
+
+.contact-float a {
+	color: white;
+}
+
+.it-phone {
+	font-size: 23px;
+}
 
 .logo  {
 	margin: 39px;
-	margin-left: 5%;
+	margin-left: 322px;
 }
 
 .main-menu {
-	margin: auto;
+	padding-top:42px;
+	margin-left: 55px;
 	width: 730px;
 }
 
@@ -51,8 +85,8 @@ a {
 }
 
 .main-menu ul li{
-		display: inline-block;
-		margin: 0 56px 0 0;
+	display: inline-block;
+	margin: 0 56px 0 0;
 }
 
 .main-menu ul li a{
@@ -64,18 +98,12 @@ a {
 }
 
 .contact {
-	margin: auto;	
-	margin-right: 20px; 
-	color: #ffffff;
+	padding-top: 40px;
+	margin-right: 322px; 
 }
 
-.with-float {
-	color: #ffffff;
-	background-color: red;
-}
-
-div.with-float li {
-	float: left;
+.contact a {
+	color: white;
 }
 
 .with-grid {
@@ -85,6 +113,45 @@ div.with-float li {
 }
 
 .with-inline_block {
-	display: inline-block;
+	height: 142px;
 	background: green;
+}
+
+.logo-inline_block {
+	display: inline-block;
+	margin: 39px;
+	margin-left: 322px;
+}
+
+.main-menu-inline_block {
+	display: inline-block;
+	margin: 54px 0px 73px 55px;
+	height: 142px; 
+}
+
+.main-menu-inline_block ul li{
+	display: inline-block;
+	margin: 0 56px 0 0;
+}
+
+.main-menu-inline_block ul li a{
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 18px;
+	text-align: center;
+}
+
+.contact-inline_block {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.contact-inline_block a {
+	color: white;
+}
+
+.with-flex {
+	display: flex; 
+	justify-content: flex-start;
 }

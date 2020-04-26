@@ -18,6 +18,8 @@ header {
 	background-color: #25252d;
 	width: 100%;
 	min-height: 142px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    padding: 10px;
 }
 
 a {
@@ -37,7 +39,6 @@ padding-top: 2.5%;
 	float: left;
 	min-width: 52%;
 	margin-left: 10%;
-	margin-right: 5.5%; 
 }
 
 .main-menu-float ul {
@@ -46,7 +47,6 @@ padding-top: 2.5%;
 
 .main-menu-float ul li {
 		float: left;
-		/*width: 31%;*/
 		margin-left: 5%;
 }
 

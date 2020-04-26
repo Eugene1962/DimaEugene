@@ -1,41 +1,43 @@
 @font-face {
- 	font-family: 'Malgun Gothic Regular', sans-serif;
+ 	font-family: 'Malgun Gothic';
 	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf');
 	font-weight: normal;
-}	
+}
+
+@font-face {
+ 	font-family: 'Malgun Gothic';
+	src: (url'../fonts/Malgun-Gothic-Bold_29380.ttf');
+	font-weight: bold;
+}
 
 /* general */
 
-* {
-	padding: 0;
-	outline: none;
-}
+body{ font-family: 'Malgun Gothic', sans-serif; }
 
 header {
 	background-color: #25252d;
-	width: 1922px;
-	height: 142px;
+	width: 100%;
+	min-height: 142px;
 }
 
 a {
   text-decoration: none;
 }
 
+
 .with-float {
-	height: 142px;
+padding-top: 2.5%;
 }
 
 .logo-float  {
 	float: left;
-	margin: 39px;
-	margin-left: 322px;
 }
 
 .main-menu-float {
 	float: left;
-	padding-top:42px;
-	margin-left: 55px;
-	width: 730px;
+	min-width: 52%;
+	margin-left: 10%;
+	margin-right: 5.5%; 
 }
 
 .main-menu-float ul {
@@ -44,7 +46,8 @@ a {
 
 .main-menu-float ul li {
 		float: left;
-		margin: 0 56px 0 0;
+		/*width: 31%;*/
+		margin-left: 5%;
 }
 
 .main-menu-float ul li a {
@@ -52,17 +55,20 @@ a {
 	color: #ffffff;
 	cursor: pointer;
 	font-size: 18px;
-	text-align: center;
 }
 
 .contact-float {
-	float: left;
-	padding-top: 40px;
-	margin-right: 322px; 
+	float: right;
 }
 
 .contact-float a {
 	color: white;
+}
+
+.container with-float::after {
+	display: block;
+	content: "";
+	clear: left;
 }
 
 .it-phone {
@@ -77,7 +83,7 @@ a {
 .main-menu {
 	padding-top:42px;
 	margin-left: 55px;
-	width: 730px;
+	/*width: 730px;*/
 }
 
 .main-menu ul{

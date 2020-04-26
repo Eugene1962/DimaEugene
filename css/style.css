@@ -71,8 +71,16 @@ padding-top: 2.5%;
 	clear: left;
 }
 
+.it-mail {
+	/*border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: white;*/
+	text-decoration: underline;
+}
+
 .it-phone {
 	font-size: 23px;
+	padding-top: 2.5%;
 }
 
 .logo  {

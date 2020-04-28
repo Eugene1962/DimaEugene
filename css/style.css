@@ -17,49 +17,47 @@ body{ font-family: 'Malgun Gothic', sans-serif; }
 header {
 	background-color: #25252d;
 	width: 100%;
-	min-height: 142px;
 	box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
-    padding: 10px;
     box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-
-.with-float {
-padding-top: 30px;
+.container {
+max-width: 1278px;
+margin: auto;
+padding-top: 46px;
+padding-bottom: 26px;
 }
 
 .logo-float {
 	float: left;
+	width: 20%
 }
 
 .main-menu-float {
 	float: left;
-	min-width: 52%;
-	margin:auto;
-}
-
-.main-menu-float ul {
-	list-style: none;
-}
-
-.main-menu-float ul li {
-		float: left;
-		margin-left: 5%;
-}
-
-.main-menu-float ul li a {
-	text-transform: uppercase;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 18px;
+	width: 60%;
+    text-align: center;
 }
 
 .contact-float {
 	float: right;
+	width: 20%;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+
+.main-menu-float div  {
+	display: inline;
+	margin-right: 2%;
+}
+
+.main-menu-float a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 18px;
 }
 
 .contact-float a {
@@ -69,17 +67,15 @@ padding-top: 30px;
 .clearfix {clear: left;}
 
 .it-mail {
-	/*border-bottom-width: 1px; 
-    border-bottom-style: solid; 
-    border-bottom-color: white;*/
 	text-decoration: underline;
 	margin-bottom: 2.5%;
+	font-size: 18px;
 }
 
 .it-phone {
 	font-size: 23px;
 }
-
+/*-------------------------------------------------------*/
 .logo  {
 	margin: 39px;
 	margin-left: 322px;
@@ -124,7 +120,7 @@ padding-top: 30px;
 }
 
 .with-inline_block {
-	height: 142px;
+	/*height: 142px;*/
 	background: green;
 }
 
@@ -137,7 +133,7 @@ padding-top: 30px;
 .main-menu-inline_block {
 	display: inline-block;
 	margin: 54px 0px 73px 55px;
-	height: 142px; 
+	/*height: 142px; */
 }
 
 .main-menu-inline_block ul li{

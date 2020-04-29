@@ -33,6 +33,8 @@ padding-bottom: 26px;
 	width: 20%
 }
 
+.logo-float a {display: block;}
+
 .main-menu-float {
 	float: left;
 	width: 60%;
@@ -46,7 +48,6 @@ padding-bottom: 26px;
 
 a {
   text-decoration: none;
-  display: inline;
 }
 
 .main-menu-float div  {

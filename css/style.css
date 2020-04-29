@@ -26,23 +26,24 @@ max-width: 1278px;
 margin: auto;
 padding-top: 46px;
 padding-bottom: 26px;
+display: flex; 
+/*justify-content: space-between;*/
+align-content: center;
 }
 
-.logo-float {
-	float: left;
+.logo-flex {
 	width: 20%
 }
 
-.logo-float a {display: block;}
+.logo-flex a {display: block;}
 
-.main-menu-float {
-	float: left;
+.main-menu-flex {
+	display: flex; 
+	justify-content: space-around;
 	width: 60%;
-    text-align: center;
 }
 
-.contact-float {
-	float: right;
+.contact-flex {
 	width: 20%;
 }
 
@@ -50,22 +51,15 @@ a {
   text-decoration: none;
 }
 
-.main-menu-float div  {
-	display: inline;
-	margin-right: 2%;
-}
-
-.main-menu-float a {
+.main-menu-flex a {
 	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 18px;
 }
 
-.contact-float a {
+.contact-flex a {
 	color: white;
 }
-
-.clearfix {clear: left;}
 
 .it-mail {
 	text-decoration: underline;
@@ -75,91 +69,4 @@ a {
 
 .it-phone {
 	font-size: 23px;
-}
-/*-------------------------------------------------------*/
-.logo  {
-	margin: 39px;
-	margin-left: 322px;
-}
-
-.main-menu {
-	padding-top:42px;
-	margin-left: 55px;
-	/*width: 730px;*/
-}
-
-.main-menu ul{
-	list-style: none;
-}
-
-.main-menu ul li{
-	display: inline-block;
-	margin: 0 56px 0 0;
-}
-
-.main-menu ul li a{
-	text-transform: uppercase;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 18px;
-	text-align: center;
-}
-
-.contact {
-	padding-top: 40px;
-	margin-right: 322px; 
-}
-
-.contact a {
-	color: white;
-}
-
-.with-grid {
-	display: grid;    
-    grid-template-columns: repeat(3, 2fr);
-    grid-gap: 1px;
-}
-
-.with-inline_block {
-	/*height: 142px;*/
-	background: green;
-}
-
-.logo-inline_block {
-	display: inline-block;
-	margin: 39px;
-	margin-left: 322px;
-}
-
-.main-menu-inline_block {
-	display: inline-block;
-	margin: 54px 0px 73px 55px;
-	/*height: 142px; */
-}
-
-.main-menu-inline_block ul li{
-	display: inline-block;
-	margin: 0 56px 0 0;
-}
-
-.main-menu-inline_block ul li a{
-	text-transform: uppercase;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 18px;
-	text-align: center;
-}
-
-.contact-inline_block {
-	display: inline-block;
-	margin-left: 0;
-}
-
-.contact-inline_block a {
-	color: white;
-}
-
-.with-flex {
-	display: flex; 
-	justify-content: flex-start;
 }

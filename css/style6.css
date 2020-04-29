@@ -1,0 +1,66 @@
+@font-face {
+ 	font-family: 'Malgun Gothic Regular', sans-serif;
+	src: (url'../fonts/Malgun-Gothic_Regular_29381.ttf');
+	font-weight: normal;
+}	
+
+/* general */
+
+.mainbox {
+	width: 100%;
+    min-height: 100px;
+    background: green;
+    /*white-space: pre-line;*/
+    
+}
+
+.square {
+    display: inline-block;
+    width: 23%
+}
+
+.square1 {
+	/*width: 81px;*/
+    height: 81px;
+    background: red;
+    /*vertical-align: text-bottom;*/
+}
+
+.square2 {
+	
+    height: 83px;
+    background: yellow;
+}
+
+.square3 {
+	
+    height: 85px;
+    background: gray;
+    white-space: pre;
+
+}
+
+.square4 {
+    
+    height: 88px;
+    background: olive;
+}
+
+.square5 {
+   
+    height: 90px;
+    background: teal;
+}
+
+.square6 {
+    
+    height: 100px;
+    background: purple;
+}
+.container {
+    width: 1000px;
+    min-height: 80px;
+    background: white;
+    margin: auto;
+    text-align: justify;
+}
